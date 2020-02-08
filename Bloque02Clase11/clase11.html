@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        html {
+            font-size: 20px;
+        }
         .container {
             margin: 0 auto;
         }
         div.textos > p {
-            font-size: 2rem;
-            color: blueviolet;
-            border: 2cm;
+            font-size: 1rem;
+            color: rgb(43, 144, 226);
+            border: 1em;
+            border-style: outset;
+            border-color: black;
+            border-radius: 10px;
         }
         div.textos p:hover {
-            cursor: pointer;
+            cursor: wait;
+            color: rgb(187, 255, 0);
+            font-size: 2rem;
+            font-family: 'Courier New', Courier, monospace;
+            border-style: double;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -21,10 +32,8 @@
     <div class="container">
         <div class="textos">
             <p>Esto es el Primer Parrafo</p>
-            <div class="texto-interno">
-                <p>Este es el Segundo Parrafo</p>
-                <p>Este es el Tercer Parrafo</p>
-            </div>
+            <p>Este es el Segundo Parrafo</p>
+            <p>Este es el Tercer Parrafo</p>
             <p>Este es el Cuarto Parrafo</p>
         </div>
     </div>
