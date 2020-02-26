@@ -12,7 +12,17 @@
 */
 
 //tu código va aquí vvv
+let mi_var = 79 ** 2;
+mi_var = 25 * mi_var * 59;
+mi_var = mi_var % 69;
 
+let mi_var2 = 21 / 53;
+mi_var = 84 + 96 - mi_var;
+
+let resultado = mi_var + mi_var2;
+
+console.log(resultado)
+console.log(84 + 96 - 25 * 79 ** 2 * 59 % 69 + 21 / 53);
 //tu código va aquí ^^^
 
 //eof

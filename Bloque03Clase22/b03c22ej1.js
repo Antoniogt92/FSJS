@@ -6,11 +6,20 @@
 
 //tu código va aquí vvv
 
-function saludar() {
+function saludar(nombre="Antonio",edad=27,ciudad="Veracruz",oficio="Contador",juego="FIFA") {
     console.log(`¡Hola! Soy ${nombre}, tengo ${edad} años, nací en ${ciudad}, me dedico a ${oficio} y mi juego favorito es ${juego}.`);
 }
+saludar();
 
+
+/*
+const nombre = "Antonio";
+const edad = 27;
+const ciudad = "Veracruz";
+const oficio = "Contador";
+const juego = "FIFA";
 saludar();
 //tu código va aquí ^^^
+*/
 
 //eof

@@ -9,12 +9,37 @@
     Imprimir en pantalla el resultado.
 */
 
-const op1 = 10;
-const op2 = 20;
-const signo = "+";
-
-//tu código va aquí vvv
-
+function messageClick() {
+    const op1 =   Number(document.getElementById("term1").value);
+    const op2 =   Number(document.getElementById("term2").value);
+    const signo = document.getElementById("sign").value;
+    
+    const r = document.getElementById("divresultados");
+    
+    //tu código va aquí vvv
+    r.innerHTML = "";
+    
+    while(signo==="+") {
+        r.innerHTML = `${op1} + ${op2} = ${op1+op2}`;
+        break;
+    }
+    while(signo==="-") {
+        r.innerHTML = `${op1} - ${op2} = ${op1-op2}`;
+        break;
+    }
+    while(signo==="*") {
+        r.innerHTML = `${op1} * ${op2} = ${op1*op2}`;
+        break;
+    }
+    while(signo==="/") {
+        r.innerHTML = `${op1} / ${op2} = ${op1/op2}`;
+        break;
+    }
+    while(signo==="%") {
+        r.innerHTML = `${op1} % ${op2} = ${op1%op2}`;
+        break;
+    }
+}
 //tu código va aquí ^^^
 
 //eof

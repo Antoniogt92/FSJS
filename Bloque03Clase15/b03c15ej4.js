@@ -6,6 +6,9 @@
     determina qué imprimirá el console.log.
 
     Ejecuta el ejercicio para que compares tu respuesta.
+    
+    a /= (1)*(2)+(1)-(1)
+
 */
 
 let a = 1;

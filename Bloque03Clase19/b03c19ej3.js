@@ -12,10 +12,13 @@ function messageClick() {
 
     //asigna a res.innerHTML el texto que contiene la tabla de multiplicar ya resuelta
 
-    let n = num.value;
+    let n = parseFloat(num.value);
 
     //tu código va aquí vvv
-
+    res.innerHTML = "";
+    for(let a=0 ; a<=10 ; a++) {
+        res.innerHTML += "<br>"+n+" x "+a+" = "+(n*a);
+    }
     //tu código va aquí ^^^
 }
 

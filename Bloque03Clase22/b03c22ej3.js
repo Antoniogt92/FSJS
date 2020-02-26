@@ -8,7 +8,14 @@
 */
 
 //tu código va aquí vvv
+const suma=function(num1, num2){
+    return num1+num2;
+}
+const arr=[];
+arr.push(suma);
 
+console.log("Suma en variable: "+suma(5,2));
+console.log("Suma en arreglo: "+arr[0](5,2));
 //tu código va aquí ^^^
 
 //eof

@@ -7,6 +7,17 @@
 const a = [623.549,685.324,528.423,492.587,120.065,983.004,300.470,421.799,101.265,323.650,147.265,200.684];
 
 //tu código va aquí vvv
+let i=0;
+let suma = 0;
+let prom = 0;
+
+while(i<a.length){
+    suma += a[i];
+    i++;
+}
+
+prom = suma/a.length;
+console.log("El promedio es "+prom)
 
 //tu código va aquí ^^^
 

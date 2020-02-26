@@ -9,8 +9,10 @@
 
 function printArray() {
 
+/*  var c; es como si se pasara al inicio y ahora si esta dentro del scope */ 
     if(true) {
-        let c = ["hola", "soy", "un", "ejercicio", "sobre", "hoisting"];
+/*antes era const*/
+    var c = ["hola", "soy", "un", "ejercicio", "sobre", "hoisting"]; //el SCOPE de var aplica para funciones
     }
 
     for(let i of c) {

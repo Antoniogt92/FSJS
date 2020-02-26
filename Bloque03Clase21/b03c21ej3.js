@@ -9,7 +9,28 @@
 */
 
 //tu código va aquí vvv
+const tipoDeLetra = function letras(un_str, un_bool){
 
+    un_str=un_str.toUpperCase();
+    let v = 0;
+    if(un_bool){
+        for(let i of un_str){
+            if(i==="A" || i==="E" || i==="I" || i==="O" || i==="U"){
+                v++;
+            }
+        }
+        //contar vocales
+    }else{
+        for(let i of un_str){
+            if(i!=="A" && i!=="E" && i!=="I" && i!=="O" && i!=="U"){
+                v++;
+            }
+        }//contar consonantes
+    }
+    return v;
+}
+let l=tipoDeLetra("holassssss", false);
+console.log("Letras: "+l);
 //tu código va aquí ^^^
 
 //eof

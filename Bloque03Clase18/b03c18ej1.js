@@ -15,12 +15,23 @@ let r = document.getElementById("divresultados");
 
 function messageClick() {
 
-    a = term1.value;
-    b = term2.value;
+    a = parseFloat(term1.value);
+    b = parseFloat(term2.value);
 
     //asigna r.innerHTML al valor que quieras imprimir en pantalla.
 
     //tu código va aquí vvv
+    /*if(a>b) {
+        r.innerHTML = "A es mayor"
+    }else if (a<b) {
+        r.innerHTML = "B es mayor"
+    }else if (a===b) {
+        r.innerHTML = "Son iguales"
+    }*/
+
+    r.innerHTML = (a>b) ? "A es mayor"
+    : (a<b) ? "B es mayor"
+    : "Son iguales"
 
     //tu código va aquí ^^^
 }

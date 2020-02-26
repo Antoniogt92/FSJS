@@ -6,6 +6,19 @@
 */
 
 //tu código va aquí vvv
+const FSB8 = [
+    "Antonio",
+    "Axel",
+    "Gaby",
+    "Gerardo",
+    "Jorge",
+    "Mariana",
+    "Pepe",
+    "Sharon"
+];
+for(let ab of FSB8){
+    console.log(ab);
+}
 
 //tu código va aquí ^^^
 

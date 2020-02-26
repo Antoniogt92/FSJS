@@ -10,7 +10,8 @@
 
 function messageClick() {
     //tu código va aquí vvv
-
+    const a = prompt("¿Cómo te llamas?", "Anónimo");
+    alert(`Que pedo ${a}!`);
     //tu código va aquí ^^^
 }
 

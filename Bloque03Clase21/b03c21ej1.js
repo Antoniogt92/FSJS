@@ -8,7 +8,17 @@
 */
 
 //tu código va aquí vvv
+let n=201;
+let i=0;
 
+function multiplica(n){
+    while(i<=10){
+        let resultado=n*i;
+        console.log("La multiplicación de "+n+" x "+i+" es igual a "+resultado)
+        i++
+    }    
+}
+multiplica(n);
 //tu código va aquí ^^^
 
 //eof

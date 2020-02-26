@@ -13,7 +13,7 @@ let v3 = "hola"
 let test;
 
 //tu código va aquí vvv
-
+test = Boolean(v3);
 //tu código va aquí ^^^
 
 console.log(test+" es del tipo "+typeof(test));

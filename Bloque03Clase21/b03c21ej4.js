@@ -8,6 +8,23 @@
 
 //tu código va aquí vvv
 
+let sum = function sumar (n,o){
+    return (n+o);
+}
+let res = function restar (n,o){
+    return(n-o)
+}
+let mul = function multiplicar (n,o){
+    return(n*o)
+}
+let div = function division (n,o){
+    return(n/o)
+}
+
+const ope = [sum, res, mul, div];
+
+console.log(   ope[0](6, 2)   );// siempre va de izquierda a derecha, se resume a la funcion y a sus argumentos
+
 //tu código va aquí ^^^
 
 //eof

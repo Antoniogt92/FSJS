@@ -25,6 +25,8 @@ primernombre = "El primer nombre es González";
 
 console.log(primernombre);
 
+console.log("si esto se imprime, ya no hay errores de runtime");
+
 //tu código va aquí ^^^
 
 //eof
